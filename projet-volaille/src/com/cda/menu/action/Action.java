@@ -6,7 +6,7 @@ public abstract class Action implements Comparable<Action> {
 	protected final String description;
 	
 	protected Action(int pId, String pDescription) {
-		this.id = pId;
+		this.id = pId; // 
 		this.description = pDescription;
 	}
 	
